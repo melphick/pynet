@@ -1,22 +1,11 @@
-- 0
-- 1
-- 2
-- 3
-- 4
-- 5
-- 6
-- 7
-- hello
-- world
-- attribs:
-  - 0
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-  - 6
-  ip_addr: 10.10.10.239
-  some_key: foo
-  another_key: bar 
-
+- ip_addr: 1.2.3.4
+  name: router1
+  optional_attrib_1: foo
+  os_version: 12.4.15T
+  serial_number: FTX000232
+- ip_addr: 5.6.7.8
+  name: router2
+  os_version: 12.4.15T
+  serial_number: FTX345632
+- empty1
+- empty2
