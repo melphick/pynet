@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  vars:
+    hostname: switch_1
+  tasks:
+    - name: Generate configuration file
+      template: src=/home/melphick/pynet/week5/ansible/switch_template.j2
+                dest=/home/melphick/pynet/week5/ansible/switch_1.txt
